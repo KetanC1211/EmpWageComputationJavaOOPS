@@ -27,7 +27,7 @@ public class EmployeeWageComputation {
 			salary = empRatePerHrs*empHrs;
 			totalSalary = totalSalary + salary;
 			totalEmpHrs = totalEmpHrs + empHrs;
-				totalWorkingDays++;
+			totalWorkingDays++;
 		}
 		System.out.println("Monthly Wage is "+ totalSalary);
 	}
